@@ -1,0 +1,915 @@
+{
+  "navigation": {
+    "home": "Hem",
+    "services": "Tjänster",
+    "portfolio": "Portfolio",
+    "pricing": "Priser",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "backToTop": "Tillbaka till toppen",
+    "customerType": {
+      "business": "Företag",
+      "private": "Privatkund"
+    }
+  },
+  "company": {
+    "name": "Weblio",
+    "phone": "0762-81 55 53",
+    "email": "{'info@weblio.se'}",
+    "address": "Skåne, Sverige"
+  },
+  "hero": {
+    "title": "Professionella hemsidor för företag och privatpersoner",
+    "subtitle": "Från idé till färdig hemsida på webben - vi sköter allt",
+    "description": "Vi skapar säkra och intuitiva webbplatser som stödjer dina affärsmål - med fokus på långsiktigt värdeskapande.",
+    "cta": "Få en kostnadsfri konsultation",
+    "ctaSecondary": "Se våra priser"
+  },
+  "services": {
+    "title": "Våra tjänster",
+    "subtitle": "Allt du behöver för en professionell närvaro online",
+    "items": {
+      "design": {
+        "title": "Design & UX",
+        "description": "Modern, responsiv design som fungerar perfekt på alla enheter"
+      },
+      "development": {
+        "title": "Utveckling",
+        "description": "Byggt med Vue.js och modern teknik för snabbhet och säkerhet"
+      },
+      "hosting": {
+        "title": "Webbhotell & Domän",
+        "description": "Vi sköter allt tekniskt - du behöver inte oroa dig för något"
+      },
+      "support": {
+        "title": "Support & Underhåll",
+        "description": "Löpande support och uppdateringar för att hålla din sajt säker"
+      }
+    },
+    "process": {
+      "title": "Så här fungerar det",
+      "step1": {
+        "title": "Konsultation",
+        "description": "Vi träffas och pratar om dina behov och önskemål"
+      },
+      "step2": {
+        "title": "Design",
+        "description": "Vi skapar en design som passar ditt företag perfekt"
+      },
+      "step3": {
+        "title": "Utveckling",
+        "description": "Vi bygger hemsidan med modern teknik"
+      },
+      "step4": {
+        "title": "Lansering",
+        "description": "Vi publicerar sajten och du är redo att ta emot kunder"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Våra projekt",
+    "subtitle": "Se exempel på hemsidor vi skapat för andra företag",
+    "viewProject": "Se projekt",
+    "projects": {
+      "mulo": {
+        "title": "Mulo Design",
+        "description": "Elegant hemsida för inredningsföretag med produktgalleri och kontaktformulär",
+        "category": "Inredning",
+        "url": "https://mulodesign.se",
+        "imageUrl": "/assets/projects/mulo.webp"
+      },
+      "amea-salong": {
+        "title": "AMEA Salong",
+        "description": "Modern hemsida för frisörsalong med webbshop och online-kurser",
+        "category": "Skönhetssalong",
+        "url": "https://ameasalong.se",
+        "imageUrl": "/assets/projects/ameasalong.webp"
+      },
+      "alpakas": {
+        "title": "Alpaka’s Coffee",
+        "description": "Elegant kafé-hemsida med autentiskt hantverksblandat kaffe",
+        "category": "Kafé",
+        "url": "https://alpakascoffee.com",
+        "imageUrl": "/assets/projects/alpakas.webp"
+      },
+      "skanespolarna": {
+        "title": "Skånespolarna",
+        "description": "Modern hemsida för lokala entreprenörer och företagare i Skåne",
+        "category": "VVS",
+        "url": "https://skanespolarna.se",
+        "imageUrl": "/assets/projects/skånespolarna.png"
+      },
+      "zar-restaurang": {
+        "title": "Zar Restaurang",
+        "description": "Elegant restauranghemsida",
+        "category": "Restaurang",
+        "url": "https://zar-restaurang.se",
+        "imageUrl": "/assets/projects/zar-restaurang.png"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Transparenta priser",
+    "subtitle": {
+      "business": "Välj det paket som passar ditt företag bäst",
+      "personal": "Välj det paket som passar dig bäst"
+    },
+    "popular": "Populärast",
+    "toggle": {
+      "monthly": "Månadsvis",
+      "annually": "Årsvis",
+      "save": "Spara"
+    },
+    "packages": {
+      "basic": {
+        "title": "Start Basic",
+        "description": "Professionell weblösning till rörligt pris och e-post",
+        "features": [
+          "Utveckling av hemsida till rörligt pris",
+          "Obegränsat med e-postadresser",
+          "Webbmail",
+          "Spamfilter och autosvar",
+          "Webbhotell och domän"
+        ],
+        "business": {
+          "monthly": {
+            "price": "199",
+            "currency": "kr/mån"
+          },
+          "annual": {
+            "price": "1 999",
+            "currency": "kr/år"
+          }
+        },
+        "private": {
+          "monthly": {
+            "price": "249",
+            "currency": "kr/mån"
+          },
+          "annual": {
+            "price": "2 499",
+            "currency": "kr/år"
+          }
+        }
+      },
+      "professional": {
+        "title": "Start Professional",
+        "description": "Komplett lösning med hemsida och e-post inkluderat i priset",
+        "features": [
+          "Utveckling av hemsida",
+          "Obegränsat med e-postadresser",
+          "Webbmail",
+          "Spamfilter och autosvar",
+          "Webbhotell och domän",
+          "Teknisk underhållning",
+          "Fem justeringar av hemsidan per år"
+        ],
+        "popular": true,
+        "business": {
+          "monthly": {
+            "price": "299",
+            "currency": "kr/mån"
+          },
+          "annual": {
+            "price": "2 999",
+            "currency": "kr/år"
+          }
+        },
+        "private": {
+          "monthly": {
+            "price": "379",
+            "currency": "kr/mån"
+          },
+          "annual": {
+            "price": "3 799",
+            "currency": "kr/år"
+          }
+        }
+      },
+      "premium": {
+        "title": "Start Premium",
+        "description": "Premium-paket med utvecklingsavgift samt inkluderad support",
+        "features": [
+          "Utveckling av hemsida",
+          "Obegränsat med e-postadresser",
+          "Fritt antal e-postalias",
+          "Webbmail",
+          "Spamfilter och autosvar",
+          "Webbhotell och domän",
+          "Teknisk underhållning",
+          "Kostnadsfri support",
+          "10 justeringar av hemsidan per år",
+          "Sökmotoroptimering (SEO)"
+        ],
+        "business": {
+          "monthly": {
+            "price": "649",
+            "currency": "kr/mån"
+          },
+          "annual": {
+            "price": "6 490",
+            "currency": "kr/år"
+          }
+        },
+        "private": {
+          "monthly": {
+            "price": "819",
+            "currency": "kr/mån"
+          },
+          "annual": {
+            "price": "8 199",
+            "currency": "kr/år"
+          }
+        }
+      }
+    },
+    "recurring": {
+      "title": "Information om priser",
+      "hosting": "Alla priser anges per månad eller år",
+      "domain": "Årlig betalning ger bättre pris",
+      "support": "Flexibla betalningsalternativ"
+    }
+  },
+  "about": {
+    "title": "Om oss",
+    "subtitle": "Passionerade webbutvecklare med fokus på både företag och privatpersoner",
+    "ourStory": "Vår historia",
+    "story": "Vi startade Weblio med en enkel idé: att göra professionella hemsidor tillgängliga för alla företag men även för privatpersoner. Som erfarna utvecklare såg vi att främst många företag behövde hjälp att synas online, men att de flesta lösningar var antingen för dyra eller för komplicerade.",
+    "mission": "Vår mission är att hjälpa företag att växa genom att ge dem verktyg de behöver för att lyckas online. Vi tror på transparens, enkelhet och personlig service.",
+    "stats": {
+      "rating": "Kundbetyg",
+      "experience": "År i branschen", 
+      "mobile": "Mobilanpassat",
+      "support": "Support"
+    },
+    "team": {
+      "title": "Vårt team",
+      "member1": {
+        "name": "Francisco Mouat",
+        "role": "Grundare & UX/UI Designer",
+        "description": "4+ års erfarenhet av systemutveckling och leverans till kunder."
+      },
+      "member2": {
+        "name": "Albin Médoc",
+        "role": "Grundare & Lead Developer",
+        "description": "8+ års erfarenhet av systemutveckling, specialiserad på användarvänlig design och funktionalitet."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "subtitle": "Redo att ta nästa steg? Låt oss prata om ditt projekt",
+    "form": {
+      "name": "Namn",
+      "email": "E-post",
+      "company": "Företag",
+      "message": "Berätta om ditt projekt",
+      "submit": "Skicka meddelande",
+      "submitting": "Skickar...",
+      "recaptchaNotice": "Denna webbplats skyddas av reCAPTCHA och Googles integritetspolicy och användarvillkor gäller.",
+      "namePlaceholder": "Ditt namn",
+      "emailPlaceholder": "{'din@email.se'}",
+      "phonePlaceholder": "070-123 45 67",
+      "companyPlaceholder": "Ditt företag",
+      "messagePlaceholder": "Berätta kort om vad du behöver hjälp med...",
+      "success": "Tack för ditt meddelande! Vi återkommer inom 24 timmar.",
+      "validationError": "Formulärdata är ogiltig. Kontrollera att alla obligatoriska fält är ifyllda.",
+      "serverError": "Ett serverfel uppstod. Försök igen senare.",
+      "networkError": "Det gick inte att skicka meddelandet. Kontrollera din internetanslutning och försök igen."
+    },
+    "info": {
+      "title": "Kontaktinformation",
+      "consultation": "Gratis konsultation",
+      "consultationText": "Vi erbjuder alltid en kostnadsfri konsultation där vi går igenom dina behov och ger dig råd oavsett om du väljer att jobba med oss eller inte."
+    }
+  },
+  "testimonials": {
+    "title": "Vad våra kunder säger",
+    "items": {
+      "testimonial1": {
+        "text": "Weblio hjälpte oss att få en professionell hemsida som verkligen representerar vår restaurang. Bookingarna har ökat med 40% sedan lansering!",
+        "author": "Maria Lindström",
+        "company": "Bistro Göta"
+      },
+      "testimonial2": {
+        "text": "Fantastisk service och ett team som verkligen förstår vad småföretag behöver. Vår nya hemsida har gett oss så mycket mer trovärdighet.",
+        "author": "Johan Eriksson",
+        "company": "Byggfirma Nord"
+      },
+      "testimonial3": {
+        "text": "De skötte allt från A till Z. Jag behövde inte tänka på teknik alls, utan kunde fokusera på mitt företag.",
+        "author": "Lisa Andersson",
+        "company": "Beauty Studio"
+      }
+    }
+  },
+  "footer": {
+    "quickLinks": "Snabblänkar",
+    "contact": "Kontakt",
+    "technology": "Teknologi",
+    "privacy": "Integritetspolicy",
+    "terms": "Villkor",
+    "cookies": "Cookies",
+    "guides": "Guider & Support",
+    "copyright": "© 2025 Weblio. Alla rättigheter förbehållna.",
+    "techBadges": {
+      "vue": "Vue.js",
+      "bootstrap": "Bootstrap",
+      "responsive": "Responsiv",
+      "seo": "SEO",
+      "pwa": "PWA",
+      "modern": "Modern"
+    }
+  },
+  "common": {
+    "readMore": "Läs mer",
+    "getStarted": "Kom igång",
+    "learnMore": "Lär dig mer",
+    "viewAll": "Se alla",
+    "email": "E-post",
+    "phone": "Telefon",
+    "close": "Stäng",
+    "lastUpdated": "Senast uppdaterad",
+    "effectiveDate": "Gäller från"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Integritetspolicy",
+      "subtitle": "Information om hur vi hanterar dina personuppgifter",
+      "lastUpdated": "2025-01-11",
+      "sections": {
+        "introduction": {
+          "title": "Inledning",
+          "content": "Weblio värnar om din integritet och är engagerat i att skydda dina personuppgifter. Denna integritetspolicy förklarar hur vi samlar in, använder, lagrar och skyddar information när du besöker vår webbplats eller använder våra tjänster."
+        },
+        "dataController": {
+          "title": "Personuppgiftsansvarig",
+          "content": "Weblio är personuppgiftsansvarig för behandlingen av dina personuppgifter enligt denna policy."
+        },
+        "dataCollection": {
+          "title": "Vilka uppgifter samlar vi in?",
+          "content": "Vi kan samla in följande typer av information:",
+          "list": [
+            "Kontaktuppgifter (namn, e-postadress, telefonnummer)",
+            "Företagsinformation (företagsnamn, bransch, webbplatsönskemål)",
+            "Teknisk information (IP-adress, webbläsartyp, besöksstatistik)",
+            "Kommunikationsdata (meddelanden via kontaktformulär eller e-post)"
+          ]
+        },
+        "dataUse": {
+          "title": "Hur använder vi dina uppgifter?",
+          "content": "Vi använder dina personuppgifter för att:",
+          "list": [
+            "Tillhandahålla våra tjänster och besvara dina förfrågningar",
+            "Kommunicera med dig om projekt och tjänster",
+            "Förbättra vår webbplats och våra tjänster",
+            "Fullgöra våra avtalsmässiga skyldigheter",
+            "Följa gällande lagstiftning"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rättslig grund",
+          "content": "Vår behandling av personuppgifter baseras på:",
+          "list": [
+            "Samtycke - när du frivilligt lämnar uppgifter",
+            "Avtalsuppfyllelse - för att leverera tjänster",
+            "Berättigat intresse - för att förbättra våra tjänster",
+            "Rättslig förpliktelse - när lagen kräver det"
+          ]
+        },
+        "dataSharing": {
+          "title": "Delning av uppgifter",
+          "content": "Vi delar inte dina personuppgifter med tredje part utan ditt samtycke, förutom när det krävs enligt lag eller för att tillhandahålla våra tjänster (t.ex. webbhotell-leverantörer)."
+        },
+        "dataRetention": {
+          "title": "Lagringstid",
+          "content": "Vi lagrar dina personuppgifter endast så länge som nödvändigt för de ändamål de samlades in för, eller enligt vad som krävs enligt lag."
+        },
+        "yourRights": {
+          "title": "Dina rättigheter",
+          "content": "Du har rätt att:",
+          "list": [
+            "Få tillgång till dina personuppgifter",
+            "Begära rättelse av felaktiga uppgifter",
+            "Begära radering av dina uppgifter",
+            "Begära begränsning av behandlingen",
+            "Invända mot behandlingen",
+            "Dataportabilitet",
+            "Lämna in klagomål till tillsynsmyndighet"
+          ]
+        },
+        "security": {
+          "title": "Säkerhet",
+          "content": "Vi vidtar lämpliga tekniska och organisatoriska säkerhetsåtgärder för att skydda dina personuppgifter mot obehörig åtkomst, förlust eller missbruk."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "content": "Vår webbplats använder cookies för att förbättra användarupplevelsen. Se vår cookie-policy för mer information."
+        },
+        "changes": {
+          "title": "Ändringar av policyn",
+          "content": "Vi kan uppdatera denna integritetspolicy från tid till annan. Väsentliga ändringar kommer att meddelas på vår webbplats."
+        },
+        "contact": {
+          "title": "Kontakta oss",
+          "content": "Om du har frågor om denna integritetspolicy eller vill utöva dina rättigheter, kontakta oss:"
+        }
+      }
+    },
+    "terms": {
+      "title": "Allmänna villkor",
+      "subtitle": "Villkor för användning av våra tjänster",
+      "lastUpdated": "2025-01-11",
+      "sections": {
+        "introduction": {
+          "title": "Inledning",
+          "content": "Dessa allmänna villkor reglerar din användning av Weblios tjänster. Genom att använda våra tjänster accepterar du dessa villkor."
+        },
+        "services": {
+          "title": "Våra tjänster",
+          "content": "Weblio erbjuder webbutvecklingstjänster inklusive design, utveckling, hosting och underhåll av webbplatser."
+        },
+        "obligations": {
+          "title": "Dina skyldigheter",
+          "content": "Som kund förbinder du dig att:",
+          "list": [
+            "Tillhandahålla korrekt och fullständig information",
+            "Betala för tjänster enligt överenskomna villkor",
+            "Respektera upphovsrätt och andra immateriella rättigheter",
+            "Inte använda tjänsterna för olagliga ändamål"
+          ]
+        },
+        "payment": {
+          "title": "Betalningsvillkor",
+          "content": "Betalning sker enligt överenskommen betalningsplan. Försenade betalningar kan medföra ränta enligt gällande lag."
+        },
+        "intellectualProperty": {
+          "title": "Immaterialrätt",
+          "content": "Weblio behåller rätten till kod och tekniska lösningar. Kunden äger innehåll och varumärken som tillhandahålls."
+        },
+        "liability": {
+          "title": "Ansvarsbegränsning",
+          "content": "Weblios ansvar är begränsat till direkt skada som orsakats av vårdslöshet. Vi ansvarar inte för indirekt skada eller förlust."
+        },
+        "termination": {
+          "title": "Uppsägning",
+          "content": "Avtalet kan sägas upp av båda parter med överenskommen uppsägningstid. Vid uppsägning från kundens sida erbjuds export av data."
+        },
+        "changes": {
+          "title": "Ändringar av villkor",
+          "content": "Vi förbehåller oss rätten att ändra dessa villkor. Väsentliga ändringar meddelas i förväg."
+        },
+        "governing": {
+          "title": "Tillämplig lag",
+          "content": "Dessa villkor styrs av svensk lag. Tvister ska i första hand lösas genom förhandling."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Cookie-policy",
+      "subtitle": "Information om hur vi använder cookies",
+      "lastUpdated": "2025-01-11",
+      "sections": {
+        "what": {
+          "title": "Vad är cookies?",
+          "content": "Cookies är små textfiler som lagras på din enhet när du besöker en webbplats. De hjälper webbplatsen att komma ihåg information om ditt besök."
+        },
+        "types": {
+          "title": "Typer av cookies vi använder",
+          "content": "Vi använder följande typer av cookies:",
+          "list": [
+            "Nödvändiga cookies - för webbplatsens grundläggande funktioner",
+            "Prestandacookies - för att förbättra webbplatsens prestanda",
+            "Funktionscookies - för att komma ihåg dina inställningar",
+            "Analyticscookies - för att förstå hur webbplatsen används"
+          ]
+        },
+        "purpose": {
+          "title": "Syfte med cookies",
+          "content": "Vi använder cookies för att:",
+          "list": [
+            "Säkerställa att webbplatsen fungerar korrekt",
+            "Komma ihåg dina språkinställningar",
+            "Analysera trafik och användarbeteende",
+            "Förbättra användarupplevelsen"
+          ]
+        },
+        "thirdParty": {
+          "title": "Tredjepartscookies",
+          "content": "Vi kan använda cookies från tredje part för analyser och andra tjänster. Dessa styrs av respektive leverantörs integritetspolicy."
+        },
+        "control": {
+          "title": "Kontrollera cookies",
+          "content": "Du kan kontrollera och ta bort cookies genom din webbläsares inställningar. Observera att avstängning av cookies kan påverka webbplatsens funktionalitet."
+        },
+        "changes": {
+          "title": "Ändringar av cookie-policyn",
+          "content": "Vi kan uppdatera denna cookie-policy. Kontrollera sidan regelbundet för uppdateringar."
+        }
+      }
+    }
+  },
+  "guides": {
+    "title": "Guider & Support",
+    "subtitle": "Hjälp och guider för vanliga frågor",
+    "needMoreHelp": "Behöver du mer hjälp?",
+    "categories": {
+      "email": "E-post",
+      "website": "Hemsida",
+      "technical": "Teknisk support"
+    },
+    "common": {
+      "tips": "Tips:",
+      "note": "Observera:",
+      "warning": "Varning:",
+      "security": "Säkerhet:",
+      "success": "Framgång!",
+      "info": "Information:",
+      "danger": "Varning:",
+      "rightClick": "Högerklick",
+      "doubleClick": "Dubbelklick",
+      "next": "Nästa",
+      "back": "Tillbaka",
+      "recommended": "Rekommenderad",
+      "download": "Ladda ner"
+    },
+    "emailSetup": {
+      "title": "Konfigurera e-post på telefon",
+      "description": "Få hjälp att ställa in e-post på din telefon med denna enkla guide",
+      "intro": "Vi hjälper dig att konfigurera e-post på din telefon steg för steg. Börja genom att välja din enhetstyp.",
+      "helper": {
+        "title": "Gör guiden personlig (valfritt)",
+        "description": "Ange din e-postadress så anpassas guiden för dig.",
+        "placeholder": "{'din@email.se'}",
+        "detected": "Domän upptäckt: {domain}"
+      },
+      "device": {
+        "title": "Vilken enhet använder du?",
+        "description": "Välj din telefon för att få rätt instruktioner.",
+        "iphone": "iPhone",
+        "iphoneDesc": "Apple iPhone med iOS",
+        "android": "Android",
+        "androidDesc": "Android-telefon från olika tillverkare"
+      },
+      "app": {
+        "title": "Vilken e-postapp vill du använda?",
+        "description": "Välj den app du föredrar för att hantera din e-post.",
+        "gmail": "Gmail",
+        "gmailDesc": "Googles populära e-postapp",
+        "outlook": "Outlook",
+        "outlookDesc": "Microsofts professionella e-postapp",
+        "native": "Inbyggd e-postapp",
+        "nativeDesc": "Telefonens standard e-postapp"
+      },
+      "setup": {
+        "title": "Installationsguide",
+        "autoConfig": {
+          "title": "Automatisk konfiguration",
+          "description": "Ladda ner en konfigurationsfil för enkel installation"
+        }
+      },
+      "instructions": {
+        "downloadGmail": "Ladda ner Gmail-appen",
+        "gmailNote": "Gmail är en gratis och säker e-postapp från Google.",
+        "downloadOutlook": "Ladda ner Outlook-appen",
+        "outlookNote": "Outlook är Microsofts professionella e-postapp med avancerade funktioner.",
+        "downloadAppStore": "Ladda ner från App Store",
+        "downloadPlayStore": "Ladda ner från Google Play",
+        "incoming": "Inkommande server",
+        "outgoing": "Utgående server",
+        "defaultEmail": "{'din@email.se'}",
+        "defaultServer": "mail.dindoman.se",
+        "incomingSettings": "Server: {server}\nPort: 993\nSäkerhet: SSL/TLS\nAnvändarnamn: {username}",
+        "outgoingSettings": "Server: {server}\nPort: 587\nSäkerhet: STARTTLS\nAutentisering: Ja",
+        "nativeIphone": {
+          "title": "Använd iPhone Mail-appen",
+          "note": "iPhones inbyggda Mail-app fungerar bra för grundläggande e-posthantering.",
+          "step1": {
+            "title": "Öppna Inställningar",
+            "description": "Gå till Inställningar > Mail > Konton på din iPhone."
+          },
+          "step2": {
+            "title": "Lägg till konto",
+            "description": "Tryck på 'Lägg till konto' och välj sedan 'Annat' i listan.",
+            "note": "Välj 'Annat' för att kunna ange manuella serverinställningar."
+          },
+          "step3": {
+            "title": "Ange serverinställningar",
+            "description": "Fyll i dina e-postuppgifter och använd serverinställningarna nedan:",
+            "warning": "Kontrollera att alla inställningar stämmer exakt för att undvika anslutningsproblem."
+          },
+          "step4": {
+            "title": "Testa anslutningen",
+            "description": "Spara inställningarna och testa att skicka ett testmeddelande.",
+            "success": "Nu kan du använda din e-post i iPhone Mail-appen!"
+          }
+        },
+        "nativeAndroid": {
+          "title": "Använd Android E-post-appen",
+          "note": "De flesta Android-telefoner har en inbyggd e-postapp som fungerar bra.",
+          "step1": {
+            "title": "Öppna E-post-appen",
+            "description": "Hitta och öppna e-postappen på din Android-telefon (kan heta 'E-post' eller 'Email')."
+          },
+          "step2": {
+            "title": "Lägg till konto",
+            "description": "Tryck på 'Lägg till konto' och välj 'Manuell konfiguration'.",
+            "note": "Om du inte ser denna option, välj 'Annat' eller 'IMAP/POP3'."
+          },
+          "step3": {
+            "title": "Konfigurera serverinställningar",
+            "description": "Ange dina e-postuppgifter och använd serverinställningarna nedan:",
+            "warning": "Se till att alla portnummer och säkerhetsinställningar är korrekta."
+          },
+          "step4": {
+            "title": "Slutför installationen",
+            "description": "Spara inställningarna och låt telefonen synkronisera din e-post.",
+            "success": "Din e-post är nu konfigurerad och redo att användas!"
+          }
+        },
+        "gmail": {
+          "step1": {
+            "title": "Öppna Gmail-appen",
+            "description": "Öppna Gmail-appen efter installation och tryck på 'Lägg till e-postkonto'."
+          },
+          "step2": {
+            "title": "Välj kontotyp",
+            "description": "Välj 'Annat' för att lägga till ditt egna e-postkonto.",
+            "note": "Gmail stöder IMAP-konton från andra leverantörer."
+          },
+          "step3": {
+            "title": "Ange serverinställningar",
+            "description": "Fyll i dina e-postuppgifter och använd serverinställningarna nedan:"
+          },
+          "step4": {
+            "title": "Slutför konfigurationen",
+            "description": "Spara inställningarna och låt Gmail synkronisera din e-post.",
+            "success": "Nu kan du hantera din e-post via Gmail-appen!"
+          }
+        },
+        "outlook": {
+          "step1": {
+            "title": "Öppna Outlook-appen",
+            "description": "Starta Outlook-appen och tryck på 'Lägg till konto'."
+          },
+          "step2": {
+            "title": "Ange e-postadress",
+            "description": "Skriv in din e-postadress och låt Outlook försöka hitta inställningarna automatiskt.",
+            "note": "Om automatisk konfiguration misslyckas, välj 'Avancerade inställningar'."
+          },
+          "step3": {
+            "title": "Konfigurera manuellt",
+            "description": "Om automatisk konfiguration inte fungerar, använd dessa manuella inställningar:"
+          },
+          "step4": {
+            "title": "Verifiera kontot",
+            "description": "Outlook kommer att testa anslutningen och synkronisera din e-post.",
+            "success": "Ditt e-postkonto är nu aktivt i Outlook!"
+          }
+        }
+      }
+    },
+    "webmail": {
+      "title": "Hur du använder webmail",
+      "description": "Steg-för-steg guide för att komma åt och använda din e-post via webbläsare",
+      "intro": "Webmail låter dig komma åt din e-post var som helst via en webbläsare. Följ denna guide för att komma igång.",
+      "step1": {
+        "title": "Logga in på webmail",
+        "description": "Gå till din webmail-inloggningssida och ange dina inloggningsuppgifter",
+        "urlInfo": "Webmail-adressen är:",
+        "url": "https://dindomän.se/webmail"
+      },
+      "step2": {
+        "title": "Navigera i gränssnittet",
+        "description": "Lär dig var du hittar inkorg, skickade meddelanden och andra mappar"
+      },
+      "step3": {
+        "title": "Skriv och skicka e-post",
+        "description": "Hur du skriver och skickar nya meddelanden",
+        "tipsTitle": "Tips för att skriva e-post:",
+        "tip1": "Använd tydliga ämnesrader",
+        "tip2": "Håll meddelanden korta och koncisa",
+        "tip3": "Kontrollera stavning innan du skickar"
+      },
+      "step4": {
+        "title": "Hantera bilagor",
+        "description": "Ladda upp och ladda ner filer i dina e-postmeddelanden",
+        "sizeWarning": "Maximal filstorlek för bilagor är vanligtvis 25 MB.",
+        "formatsTitle": "Filformat som stöds:"
+      }
+    },
+    "iphone": {
+      "title": "Konfigurera e-post på iPhone",
+      "description": "Lägg till ditt e-postkonto i iPhone Mail-appen",
+      "intro": "Följ denna guide för att lägga till ditt e-postkonto i iPhone Mail-appen.",
+      "step1": {
+        "title": "Öppna Inställningar",
+        "description": "Gå till Inställningar > Mail > Konton"
+      },
+      "step2": {
+        "title": "Lägg till konto",
+        "description": "Tryck på 'Lägg till konto' och välj 'Annat'",
+        "providersTitle": "Vanliga e-postleverantörer:",
+        "gmail": "Gmail",
+        "outlook": "Outlook",
+        "other": "Annat"
+      },
+      "step3": {
+        "title": "Ange kontoinformation",
+        "description": "Fyll i din e-postadress, lösenord och serverinställningar",
+        "settingsTitle": "Exempel på serverinställningar:",
+        "incoming": "Inkommande (IMAP)",
+        "outgoing": "Utgående (SMTP)",
+        "incomingCode": "Server: mail.example.com\nPort: 993 (SSL) eller 143\nSäkerhet: SSL/TLS",
+        "outgoingCode": "Server: mail.example.com\nPort: 587 (TLS) eller 465 (SSL)\nSäkerhet: STARTTLS eller SSL",
+        "settingsWarning": "Dessa inställningar kan variera. Kontakta din e-postleverantör för exakta detaljer."
+      },
+      "step4": {
+        "title": "Testa inställningar",
+        "description": "Verifiera att e-post synkroniseras korrekt",
+        "checklistTitle": "Test checklista:",
+        "check1": "Skicka ett testmeddelande till dig själv",
+        "check2": "Kontrollera att nya e-postmeddelanden kommer fram",
+        "check3": "Testa att svara på ett e-postmeddelande"
+      }
+    },
+    "android": {
+      "title": "Konfigurera e-post på Android",
+      "description": "Lägg till ditt e-postkonto i Android Gmail eller Mail-appen",
+      "intro": "Denna guide visar hur du lägger till ditt e-postkonto på Android.",
+      "step1": {
+        "title": "Öppna Gmail eller Mail-appen",
+        "description": "Starta din föredragna e-postapp",
+        "appsTitle": "Rekommenderade appar:",
+        "gmail": "Gmail",
+        "outlook": "Microsoft Outlook",
+        "default": "Standard Mail-app",
+        "appNote": "Gmail är förinstallerat på de flesta Android-enheter."
+      },
+      "step2": {
+        "title": "Lägg till konto",
+        "description": "Gå till inställningar och välj 'Lägg till konto'",
+        "location": "Vanligtvis under Inställningar > Konton eller i app-menyn"
+      },
+      "step3": {
+        "title": "Välj kontotyp",
+        "description": "Välj 'Annat' eller 'IMAP/POP3'",
+        "types": "Kontotyper:",
+        "gmail": "Gmail",
+        "exchange": "Exchange",
+        "imap": "IMAP",
+        "pop3": "POP3",
+        "other": "Annat",
+        "recommend": "Välj IMAP för bästa synkronisering mellan enheter."
+      },
+      "step4": {
+        "title": "Konfigurera inställningar",
+        "description": "Ange serverinställningar och testa anslutningen",
+        "requiredTitle": "Nödvändig information:",
+        "email": "E-postadress",
+        "password": "Lösenord",
+        "incomingServer": "Inkommande server (IMAP/POP3)",
+        "outgoingServer": "Utgående server (SMTP)",
+        "finalTest": "Testa anslutningen innan du sparar inställningarna."
+      }
+    },
+    "backup": {
+      "title": "Webbplatsbackuper",
+      "description": "Information om backup-uppsättning och återställning",
+      "intro": "Kontakta oss för att aktivera backuper för din webbplats.",
+      "step1": {
+        "title": "Aktivera backuper",
+        "description": "Kontakta oss för att sätta upp och aktivera backuper för din webbplats",
+        "contactInfo": "Kontakta oss för att aktivera backuper. Vi kommer överens om vad som ska säkerhetskopieras, hur ofta backuper ska skapas och hur länge de ska sparas."
+      },
+      "step2": {
+        "title": "Återställning",
+        "description": "Kontakta oss om du behöver återställa en tidigare version",
+        "process": "Återställningsprocess:",
+        "step1": "Kontakta oss via e-post eller telefon",
+        "step2": "Specificera vilket datum du vill återställa till",
+        "step3": "Vi verifierar och utför återställningen",
+        "step4": "Du får bekräftelse när det är klart",
+        "timeframe": "Återställning sker vanligtvis inom 2-4 timmar under kontorstid."
+      }
+    },
+    "ftp": {
+      "title": "Använda FTP för filöverföring",
+      "description": "Detaljerad guide för att ansluta till din webbplats via FTP och hantera filer",
+      "intro": "FTP (File Transfer Protocol) låter dig ladda upp och ladda ner filer från din webbserver. Denna guide visar hur du ansluter och hanterar filer säkert.",
+      "step1": {
+        "title": "Få dina FTP-inloggningsuppgifter",
+        "description": "Du behöver FTP-server, användarnamn och lösenord. Dessa kan begäras från oss."
+      },
+      "step2": {
+        "title": "Välj en FTP-klient",
+        "description": "Vi rekommenderar FileZilla (gratis) för Windows/Mac eller WinSCP för Windows. Ladda ner från officiella webbplatser.",
+        "filezilla": "Gratis för Windows, Mac & Linux",
+        "winscp": "Gratis för Windows",
+        "recommended": "Rekommenderad",
+        "windows": "Windows"
+      },
+      "step3": {
+        "title": "Konfigurera anslutningen",
+        "description": "Öppna din FTP-klient och ange: Server/Värd, Användarnamn, Lösenord. Port är vanligtvis 21 eller 22 för SFTP.",
+        "exampleTitle": "Exempel på anslutningsinställningar:",
+        "exampleCode": "Server/Värd: ftp.dindomän.se\nAnvändarnamn: dittanvändarnamn\nLösenord: dittlösenord\nPort: 21 (FTP) eller 22 (SFTP)\nProtokoll: FTP eller SFTP (rekommenderas)",
+        "securityWarning": "Välj alltid SFTP (port 22) istället för vanlig FTP (port 21) när det är möjligt för bättre säkerhet."
+      },
+      "step4": {
+        "title": "Anslut till servern",
+        "description": "Klicka på 'Anslut' eller 'Snabbanslutning'. Du ser dina lokala filer till vänster och serverfiler till höger.",
+        "localComputer": "Lokal dator (vänster)",
+        "localDescription": "Dina filer på datorn",
+        "server": "Server (höger)",
+        "serverDescription": "Filer på webbservern"
+      },
+      "step5": {
+        "title": "Navigera till rätt mapp",
+        "description": "Gå till 'public_html' eller 'www'-mappen på servern - det är här dina webbplatsfiler ska vara.",
+        "foldersTitle": "Vanliga mappar att leta efter:",
+        "foldersCode": "📁 public_html/    (vanligast)\n📁 www/\n📁 htdocs/\n📁 web/",
+        "folderInfo": "Dina webbplatsfiler ska placeras i en av dessa mappar för att vara synliga på webben."
+      },
+      "step6": {
+        "title": "Ladda upp filer",
+        "description": "Dra och släpp filer från vänster (lokal dator) till höger (server), eller högerklicka och välj 'Ladda upp'.",
+        "methodsTitle": "Sätt att ladda upp filer:",
+        "dragDrop": "Dra filer från vänster till höger panel",
+        "rightClick": "Högerklicka på fil och välj \"Ladda upp\"",
+        "doubleClick": "Dubbelklicka på fil för att ladda upp",
+        "successMessage": "När uppladdningen är klar visas filerna i höger panel och är tillgängliga på din webbplats."
+      },
+      "step7": {
+        "title": "Säkerhetstips",
+        "description": "Använd alltid SFTP istället för FTP när det är möjligt. Redigera aldrig filer direkt på servern utan att ha en backup.",
+        "tipsTitle": "Viktiga säkerhetstips:",
+        "useSftp": "Använd SFTP",
+        "sftpDescription": "Säkrare än vanlig FTP",
+        "backupFirst": "Gör backup först",
+        "backupDescription": "Ladda ner filer innan du ändrar dem",
+        "testChanges": "Testa ändringar",
+        "testDescription": "Kontrollera att webbplatsen fungerar efter ändringar",
+        "warningMessage": "Redigera aldrig filer direkt på servern. Ladda ner, redigera lokalt och ladda upp igen."
+      }
+    }
+  },
+  "language": {
+    "swedish": "Svenska",
+    "english": "English"
+  },
+  "seo": {
+    "defaultTitle": "Weblio - Professionella hemsidor för företag och privatpersoner",
+    "defaultDescription": "Vi bygger professionella hemsidor för restauranger, salonger, företag och privatpersoner. Från idé till färdig hemsida på webben - vi sköter allt. Transparent prissättning och modern teknik.",
+    "defaultKeywords": "hemsida, webbdesign, Vue.js, företag, restaurang hemsida, salong hemsida, företag hemsida, Malmö, Sverige, webbutveckling, webbyrå",
+    "pages": {
+      "home": {
+        "title": "Weblio - Professionella hemsidor för företag och privatpersoner",
+        "description": "Vi bygger professionella hemsidor för restauranger, salonger, företag och privatpersoner. Från idé till färdig hemsida på webben - vi sköter allt. Transparent prissättning och modern teknik.",
+        "keywords": "hemsida, webbdesign, Vue.js, företag, restaurang hemsida, salong hemsida, företag hemsida, Malmö, Sverige, webbutveckling, webbyrå"
+      },
+      "guides": {
+        "title": "Tekniska Guider - E-post, Webbhotell & FTP - Weblio",
+        "description": "Steg-för-steg guider för e-postinställningar, webbhotell hantering, FTP-användning och teknisk support. Enkla instruktioner för alla enheter.",
+        "keywords": "e-post guide, webbhotell guide, FTP guide, teknisk support, e-postinställningar, iPhone e-post, Android e-post, Outlook, Gmail"
+      },
+      "privacy": {
+        "title": "Integritetspolicy - Weblio",
+        "description": "Läs om hur Weblio hanterar personuppgifter och skyddar din integritet. Vi följer GDPR och tar datasäkerhet på allvar.",
+        "keywords": "integritetspolicy, GDPR, personuppgifter, datasäkerhet, cookies, weblio"
+      },
+      "terms": {
+        "title": "Användarvillkor - Weblio",
+        "description": "Läs våra användarvillkor för webbutveckling och webbdesign tjänster. Rättsliga villkor för samarbete med Weblio.",
+        "keywords": "användarvillkor, villkor, juridik, webbdesign villkor, webbutveckling kontrakt, weblio"
+      },
+      "cookies": {
+        "title": "Cookie-policy - Weblio",
+        "description": "Information om hur Weblio använder cookies för att förbättra användarupplevelsen. Läs om olika typer av cookies och hur du kan hantera dem.",
+        "keywords": "cookies, cookie-policy, kakor, webbkakor, analytics, GDPR, weblio"
+      }
+    },
+    "business": {
+      "name": "Weblio - Webbutveckling",
+      "description": "Vi bygger professionella hemsidor för restauranger, salonger, företag och privatpersoner. Från idé till färdig hemsida på webben - vi sköter allt.",
+      "services": [
+        {
+          "name": "Webbutveckling",
+          "description": "Professionell webbutveckling för företag"
+        },
+        {
+          "name": "Webbdesign",
+          "description": "Modern och responsiv webbdesign"
+        },
+        {
+          "name": "E-handelsplatser",
+          "description": "Skräddarsydda e-handelslösningar"
+        },
+        {
+          "name": "Webbhotell",
+          "description": "Säker och snabb webbhosting"
+        }
+      ]
+    }
+  }
+}

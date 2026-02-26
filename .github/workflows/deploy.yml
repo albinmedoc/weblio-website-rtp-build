@@ -1,0 +1,83 @@
+name: Deploy Application
+on:
+  push:
+    branches:
+      - master
+      - development
+  pull_request:
+    branches:
+      - master
+      - development
+    types: [closed]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+      branch:
+        description: 'Branch to deploy'
+        required: true
+        default: 'development'
+        type: string
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true) || github.event_name == 'workflow_dispatch'
+    environment: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.environment || (github.ref == 'refs/heads/master' && 'production' || 'staging') }}
+    
+    env:
+      ENVIRONMENT_NAME: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.environment || (github.ref == 'refs/heads/master' && 'production' || 'staging') }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v6
+      with:
+        ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.branch || github.ref }}
+    
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: ${{ vars.PNPM_VERSION || '9' }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version: ${{ vars.NODE_VERSION || '20' }}
+        cache: 'pnpm'
+    
+    - name: Install dependencies
+      run: ${{ vars.INSTALL_COMMAND || 'pnpm install' }}
+      
+    - name: Build frontend
+      env:
+        VITE_ENVIRONMENT: ${{ env.ENVIRONMENT_NAME }}
+        VITE_FORM_SERVICE_URL: ${{ env.ENVIRONMENT_NAME == 'production' && 'https://api.form.weblio.se' || 'https://api.form.staging.weblio.se' }}
+        VITE_FORM_SERVICE_CUSTOMER_ID: ${{ secrets.FORM_SERVICE_CUSTOMER_ID }}
+        VITE_FORM_SERVICE_FORM_IDENTIFIER: ${{ secrets.FORM_SERVICE_FORM_IDENTIFIER }}
+      run: ${{ vars.BUILD_COMMAND || 'pnpm run build' }}
+        
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ${{ vars.BUILD_DIR || './dist/' }}
+        server-dir: ${{ secrets.DEPLOY_PATH }}
+          
+    - name: Deployment notification
+      run: |
+        echo "✅ Application successfully deployed to ${{ env.ENVIRONMENT_NAME }} environment"
+        echo "📁 Deployed to: ${{ secrets.DEPLOY_PATH }}"
+        echo "🎯 Frontend: Static files deployed to root"
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          echo "🚀 Manual deployment triggered"
+          echo "📋 Branch: ${{ github.event.inputs.branch }}"
+          echo "🎯 Environment: ${{ github.event.inputs.environment }}"
+        fi
